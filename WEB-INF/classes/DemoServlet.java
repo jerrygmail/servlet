@@ -12,6 +12,6 @@
     pw.println("<html><body>");  
     pw.println("Welcome to servlet from Jerry");  
     pw.println("</body></html>");  
-      
+       
     pw.close();//closing the stream  
     }}  
