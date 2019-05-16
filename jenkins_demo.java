@@ -14,7 +14,7 @@ System.setProperty("webdriver.gecko.driver","C:\\gecko\\geckodriver.exe");
 
 WebDriver driver = new FirefoxDriver();
 //it will open the goggle page
-driver.get("localhost:8080/myproject/welcome"); 
+driver.get("http://localhost:8080/myproject/welcome"); 
 //we expect the title “Google “ should be present 
 String Expectedtitle = "Google";
 //it will fetch the actual title 
