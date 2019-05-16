@@ -10,7 +10,7 @@
       
     //writing html in the stream  
     pw.println("<html><body>");  
-    pw.println("Welcome to servlet");  
+    pw.println("Welcome to servlet from Jerry");  
     pw.println("</body></html>");  
       
     pw.close();//closing the stream  
