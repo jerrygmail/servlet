@@ -17,11 +17,11 @@ WebDriver driver = new FirefoxDriver();
 //it will open the goggle page
 driver.get("http://localhost:8080/myproject/welcome"); 
 //we expect the title “Google “ should be present 
-String Expectedtitle = "Google";
+String Expectedtitle = "Welcome to servlet from Jerry";
 //it will fetch the actual title 
-String Actualtitle = driver.getTitle();
+//String Actualtitle = driver.getTitle();
 System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
-System.out.println(driver.findElement(By.xpath("/html/body")).getText());
+String Actualtitle = driver.findElement(By.xpath("/html/body")).getText();
 //it will compare actual title and expected title
 //Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
