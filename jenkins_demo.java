@@ -23,7 +23,7 @@ String Expectedtitle = "Welcome to servlet from Jerry";
 System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
 String Actualtitle = driver.findElement(By.xpath("/html/body")).getText();
 //it will compare actual title and expected title
-//Assert.assertEquals(Actualtitle, Expectedtitle);
+Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
 System.out.println("After Assertion " + Expectedtitle + Actualtitle + " Title matched ");
 driver.quit();
