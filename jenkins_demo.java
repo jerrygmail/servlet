@@ -21,7 +21,7 @@ String Expectedtitle = "Google";
 //it will fetch the actual title 
 String Actualtitle = driver.getTitle();
 System.out.println("Before Assetion " + Expectedtitle + Actualtitle);
-System.out.println(driver.findElement(By.xpath("/html/body")).getAttribute("text"));
+System.out.println(driver.findElement(By.xpath("/html/body")).getText());
 //it will compare actual title and expected title
 //Assert.assertEquals(Actualtitle, Expectedtitle);
 //print out the result
